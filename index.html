@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76d0fcc1d4.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+
+</head>
+
+<body class="m-0 p-0 box-border font-poppins">
+
+
+
+
+    <header class="  
+    bg-[url('img\bg_herosection.png')] bg-no-repeat bg-center bg-cover px-12 pt-16">
+        <nav class="h-14 flex justify-between items-center">
+            <div>
+                <img src="img\logo.png" alt="logo">
+            </div>
+
+            <div class="flex  items-center">
+
+                <div>
+                    <div class="hidden text-sm
+                        md:flex md:justify-center md:items-center md:gap-2
+                         ">
+                        <div> <img src="icon\delivery_icon.png" alt="delivery"></div>
+                        <div>
+                            <p class="text-white">Doors Open at 8:00 AM | Order: 92 312 4422049</p>
+                        </div>
+                    </div>
+
+                    <input id="hamburg_checkbox" type="checkbox" class="h-7 w-7 z-[5] peer absolute top-[4.75rem] opacity-0
+                    md:hidden" name="" id="">
+
+                    <div class="w-7 h-1 bg-white relative z-[4] duration-700
+                before:w-5 before:bg-white before:h-1 before:absolute before:top-[-10px] before:right-0 before:transition-transform before:duration-700
+                after:w-6 after:bg-white after:h-1 after:absolute after:top-[10px] after:right-0 after:transition-transform after:duration-700
+                peer-checked:bg-transparent
+                before:peer-checked:-rotate-45 before:peer-checked:top-0  before:peer-checked:w-7 
+                after:peer-checked:rotate-45 after:peer-checked:top-0  after:peer-checked:w-7
+                md:hidden
+                ">
+                    </div>
+
+                    <ul class="hidden text-white items-center text-lg font-bold 
+                peer-checked:flex peer-checked:flex-col peer-checked:justify-start  
+                peer-checked:fixed peer-checked:top-[150px] peer-checked:right-0 
+                 peer-checked:w-screen peer-checked:h-screen peer-checked:bg-cyan-500 peer-checked:py-12
+                 md:flex sm:gap-8 md:relative md:text-sm
+                  ">
+                        <li class="w-full border-b border-cyan-200 text-center h-14 
+                    flex justify-center items-center hover:bg-cyan-300 cursor-pointer
+                    md:w-[75px] 
+                    ">
+                            <a class="visited:bg-cyan-400" href="#">Home</a>
+                        </li>
+                        <li class="w-full border-b border-cyan-200 text-center h-14 
+                    flex justify-center items-center hover:bg-cyan-300 cursor-pointer
+                    md:w-[75px] 
+                    ">
+                            <a class="" href="#">Services</a>
+                        </li>
+                        <li class="w-full border-b border-cyan-200 text-center h-14 
+                    flex justify-center items-center hover:bg-cyan-300 cursor-pointer
+                    md:w-[100px] 
+                    ">
+                            <a class="" href="#">About Us</a>
+                        </li>
+                        <li class="w-full border-b border-cyan-200 text-center h-14 
+                    flex justify-center items-center hover:bg-cyan-300 cursor-pointer
+                    md:w-[75px] 
+                    ">
+                            <a class="" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+
+        <div class="flex flex-col justify-center items-center   
+        md:flex md:flex-row-reverse md:justify-between ">
+            <div class="">
+                <img class=" relative z-[2] top-32  max-w-[120px] max-h-[120px]
+                md:max-w-[400px] md:max-h-[400px] md:top-60 " 
+                src="img\TomatoSauce.png" alt="Tomato">
+                <img class="relative z-[1]  max-h-[300px] max-w-[300px] 
+                md:max-w-[1000px] md:max-h-[8000px]" 
+                src="img\Plat_Food_img.png" alt="plate food">
+
+            </div>
+            <div class="">
+                <h1 class="  text-white text-[2rem] font-extrabold tracking-[17px] 
+                md:text-[4rem]">Grilled
+                 <span class="text-cyan-700">&</span> </h1>
+                <h1 class="  text-white text-[2rem] font-extrabold tracking-[17px] pl-4
+                md:text-[4rem]">Skewers</h1>
+                <div class="bg-[url('img\text_bg.png')] bg-no-repeat bg-center bg-contain  w-[290px] h-[122px] 
+                text-center rotate-[-5deg] table mt-[-20px] 
+                md:w-[300px] md:h-[200px]">
+                    <h1 class="text-white align-middle text-base font-bold  table-cell 
+                    md:text-[2rem]">Hot & Delicious</h1>
+                </div>
+
+                <div class="relative h-[135px]">
+                    <img class="absolute top-[20px] max-h-[300px]
+                    md:top-64" src="img\CornBowl.png" alt="Corn Bowl"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="our_story" class="px-12 py-24">
+        <div id="main_our_story" class="flex flex-col justify-center items-center relative
+        md:flex md:flex-row md:justify-between ">
+            <div id="our_section_heading" class="text-black text-[2rem] 
+            md:w-[900px]">Our
+                <span class="block text-[#355c9e] text-[4rem] font-extrabold mt-[-30px]"> Story</span>
+            </div>
+            <div id="our_section_para">
+                <p class="text-black text-lg font-bold">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nemo natus sint sapiente repellendus
+                    perspiciatis commodi aliquid pariatur et cum excepturi totam laudantium tempore non eveniet eos
+                    recusandae atque unde aperiam modi, deleniti, vel accusantium facere. At reprehenderit quaerat, quia
+                    quae cumque voluptas incidunt?
+
+                </p>
+
+            </div>
+            <div ><img class="absolute right-[20px]
+             md:top-24 md:right-0   " src="img\Lemon.png" alt="Lemon"></div>
+            <div><img class="absolute left-0
+            md:top-28 " src="img\BellPepper.png" alt="Bell Paper"></div>
+        </div>
+
+    </section>
+
+    <section id="Lunch_Menu_Head">
+        <div
+            class="flex flex-col justify-center items-center h-[300px] px-12 bg-[url('img\lunch_menu_head.png')] bg-no-repeat bg-cover bg-center">
+            <h1 class="text-white text-[2rem] font-extrabold"> DISCOVER OUR MENU</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic numquam accusantium
+                dolore voluptates, vel
+                totam doloribus minima.</p>
+        </div>
+
+
+    </section>
+
+
+    <section id="menu_carousal_section" class="px-12 pt-5 flex justify-center items-center">
+        <div class="wrapper max-w-[1100px] w-[100%] relative
+        md:max-w-[1200px]
+        ">
+            <ul class="carousal grid grid-flow-col auto-cols-[calc(100%)] 
+            overflow-x-auto scroll-smooth  snap-x snap-mandatory
+            md:grid-flow-col md:auto-cols-[calc((100%) / 3)]  
+            ">
+                <li class="card snap-start list-none flex justify-center items-center 
+                select-none cursor-grab
+                ">
+                    <img class="w-[314px] h-[314px] " src="img\Food2.png" alt="">
+                </li>
+                <li class="card snap-start list-none flex justify-center items-center">
+                    <img class="w-[314px] h-[314px]" src="img\Food.png" alt="">
+                </li>
+                <li class="card snap-start list-none flex justify-center items-center">
+                    <img class="w-[314px] h-[314px]" src="img\FoodImage.png" alt="">
+                </li>
+
+
+
+            </ul>
+
+            <button id="prevButton" class="absolute top-[25%] left-0 text-[80px]">&laquo;</button>
+            <button id="NextButton" class="absolute top-[25%] right-0 text-[80px]">&raquo;</button>
+        </div>
+    </section>
+
+
+    <section id="discover_section" class="px-12 py-24">
+        <div class="flex flex-col justify-center items-center shadow-lg px-12 pb-4
+        md:flex md:flex-row  ">
+            <div id="disc_text_wrapper" class="flex flex-col justify-center items-center
+               md:max-w-[50%] md:flex-col-reverse ">
+                <div id="dots" class="py-2">
+                    <span class="dot cursor-pointer h-4 w-4 mx-1 bg-[#bbb] rounded-[50%] inline-block"
+                        onclick="currentSlide(1)"></span>
+                    <span class="dot cursor-pointer h-4 w-4 mx-1 bg-[#bbb] rounded-[50%] inline-block"
+                        onclick="currentSlide(2)"></span>
+                    <span class="dot cursor-pointer h-4 w-4 mx-1 bg-[#bbb] rounded-[50%] inline-block"
+                        onclick="currentSlide(3)"></span>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-[2rem] font-bold py-2">DISCOVER</h2>
+
+
+                    <div class="disc_text flex flex-col justify-center items-center text-center">
+                        <h1 class="text-[#355c9e] text-[2.5rem] font-extrabold py-2">UPCOMING EVENTS</h1>
+                        <p class="text-justify px-7 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                            voluptatum quis, voluptate ullam
+                            laudantium vitae praesentium suscipit natus debitis enim nam illum obcaecati, neque
+                            eligendi! Consequuntur ipsum iste alias nihil?</p>
+                    </div>
+
+
+                    <div class="disc_text flex flex-col justify-center items-center text-center">
+                        <h1 class="text-[#355c9e] text-[2.5rem] font-extrabold py-2">LATEST EVENTS</h1>
+                        <p class="text-justify px-7 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                            voluptatum quis, voluptate ullam
+                            laudantium vitae praesentium suscipit natus debitis enim nam illum obcaecati, neque
+                            eligendi! Consequuntur ipsum iste alias nihil?</p>
+                    </div>
+
+
+                    <div class="disc_text flex flex-col justify-center items-center text-center">
+                        <h1 class="text-[#355c9e]0 text-[2.5rem] font-extrabold py-2">BONFIRE</h1>
+                        <p class="text-justify px-7 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                            voluptatum quis, voluptate ullam
+                            laudantium vitae praesentium suscipit natus debitis enim nam illum obcaecati, neque
+                            eligendi! Consequuntur ipsum iste alias nihil?</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="disc_images_div">
+                <img src="img\discover_img1.png" alt="img1">
+                <img src="img\disc_latest_eve.jpg" alt="img1">
+                <img src="img\disc_bonfire.jpg" alt="img1">
+            </div>
+        </div>
+    </section>
+
+    <selection id="reservation_sec" class="px-12 py-24">
+        <div class="flex justify-between items-center px-12 ">
+            <div class="relative">
+                <div class="bg-black  hidden
+                md:block md:bg-transparent md:absolute md:top-36"> <img class="max-w-[300px] max-h-[300px]" src="img\Food_pic.png" alt="">
+                </div>
+            </div>
+            <div class="text-center">
+                <h2 class="text-[2rem] font-bold py-2">RESERVATION</h2>
+                <h1 class="text-[#355c9e] text-[2.5rem] font-extrabold py-2">Book Your Table</h1>
+                <form action="" class="flex flex-col justify-center items-center">
+                    <input class="px-3 py-4 mb-5 w-[300px] border rounded-lg" type="text" name="" placeholder="Name"
+                        id="">
+                    <input class="px-3 py-4 mb-5 w-[300px] border rounded-lg" type="email" name="" placeholder="Email"
+                        id="">
+                    <input class="px-3 py-4 mb-5 w-[300px] border rounded-lg" type="date" name="" placeholder="Date"
+                        id="">
+                    <input class="px-3 py-4 mb-5 w-[300px] border rounded-lg" type="time" name="" placeholder="Time"
+                        id="">
+                    <input class="px-3 py-4 mb-5 w-[300px] border rounded-lg" type="number" name="" placeholder="People"
+                        id="">
+                    <input class="px-3 py-4 mb-5 bg-[#355c9e] text-white w-[300px] border rounded-lg" type="button"
+                        value="FIND TABLE">
+                </form>
+            </div>
+            <div class="relative">
+                <div class="bg-black  hidden
+                md:block md:bg-transparent  "> 
+                <img class="" src="img\tomato.png" alt="">
+                </div>
+            </div>
+        </div>
+    </selection>
+
+
+    <section id="footer" class="bg-[url('img\footer_bg.png')] bg-no-repeat bg-center bg-cover  ">
+        <div class="px-12 py-24 flex flex-col justify-center items-center">
+            <div class="md:flex md:flex-row md:gap-[660px] md:items-center">
+                <div class="pb-7">
+
+                    <img src="img\logo.png" alt="logo">
+                </div>
+                <div class="pb-7">
+                    <div class="flex justify-start items-center gap-4 pb-7">
+                        <i class="fa-solid fa-location-dot text-white"></i>
+                        <h2 class="text-white text-[1rem]"> Main Road, Building Name, Coutry </h2>
+                    </div>
+
+                    <div class="flex justify-start items-center gap-4 ">
+                        <i class="fa-solid fa-envelope text-white"></i>
+                        <h2 class="text-white text-[1rem]"> asifmehmood@gmail.com </h2>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pb-7 md:flex md:gap-[660px]  md:flex-row-reverse  md:items-center">
+
+                <div class="flex justify-center items-center gap-4 pb-7 
+                md:pb-0">
+                    <i class="fa-brands fa-facebook-f text-white hover:text-yellow-500"></i>
+                    <i class="fa-brands fa-whatsapp text-white hover:text-yellow-500"></i>
+                    <i class="fa-brands fa-twitter text-white hover:text-yellow-500"></i>
+                    <i class="fa-brands fa-instagram text-white hover:text-yellow-500"></i>
+                    <i class="fa-brands fa-youtube text-white hover:text-yellow-500"></i>
+                </div>
+
+                <div>
+                    <h2 class="text-white text-[1rem]">&copy;Company Name 2030, All rights reserved.</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>

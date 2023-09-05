@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.carousal.no-animation {
+ 
+    scroll-behavior: auto;
+
+}
+
+.carousal .dragging {
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+
+}
+
+
+
+  .active {
+
+    background-color: #355c9e;
+
+
+  }
+
